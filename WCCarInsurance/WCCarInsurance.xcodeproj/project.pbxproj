@@ -1,0 +1,828 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F0F2A381BF62FB6000CA039 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0F2A371BF62FB6000CA039 /* main.m */; };
+		8F0F2A3B1BF62FB6000CA039 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0F2A3A1BF62FB6000CA039 /* AppDelegate.m */; };
+		8F0F2A511BF62FB6000CA039 /* WCCarInsuranceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0F2A501BF62FB6000CA039 /* WCCarInsuranceTests.m */; };
+		8F0F2A5C1BF62FB6000CA039 /* WCCarInsuranceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0F2A5B1BF62FB6000CA039 /* WCCarInsuranceUITests.m */; };
+		8F0F2A8A1BF62FEE000CA039 /* accident.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F0F2A831BF62FEE000CA039 /* accident.plist */; };
+		8F0F2A8B1BF62FEE000CA039 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F0F2A841BF62FEE000CA039 /* Assets.xcassets */; };
+		8F0F2A8C1BF62FEE000CA039 /* cars.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F0F2A851BF62FEE000CA039 /* cars.plist */; };
+		8F0F2A8D1BF62FEE000CA039 /* cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F0F2A861BF62FEE000CA039 /* cities.plist */; };
+		8F0F2A8E1BF62FEE000CA039 /* emergencyPhone.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F0F2A871BF62FEE000CA039 /* emergencyPhone.plist */; };
+		8F0F2A8F1BF62FEE000CA039 /* hotCars.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F0F2A881BF62FEE000CA039 /* hotCars.plist */; };
+		8F0F2A901BF62FEE000CA039 /* phone.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F0F2A891BF62FEE000CA039 /* phone.plist */; };
+		8F0F2A941BF6317E000CA039 /* WCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0F2A931BF6317E000CA039 /* WCTabBarController.m */; };
+		8F0F2A971BF6319E000CA039 /* WCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0F2A961BF6319E000CA039 /* WCNavigationController.m */; };
+		8F0F2A9A1BF632AA000CA039 /* WCHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0F2A991BF632AA000CA039 /* WCHomeViewController.m */; };
+		8F0F2A9D1BF632EF000CA039 /* WCPriceListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0F2A9C1BF632EF000CA039 /* WCPriceListViewController.m */; };
+		8F0F2AA01BF63364000CA039 /* WCBaseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0F2A9F1BF63364000CA039 /* WCBaseWebViewController.m */; };
+		8F0F2AA31BF6341B000CA039 /* WCBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0F2AA21BF6341B000CA039 /* WCBaseViewController.m */; };
+		8F0F2AA61BF634B7000CA039 /* WCMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0F2AA51BF634B7000CA039 /* WCMeViewController.m */; };
+		8F0F2AA91BF634FB000CA039 /* WCTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0F2AA81BF634FB000CA039 /* WCTabBar.m */; };
+		8F0F2AAC1BF640D6000CA039 /* WCTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0F2AAB1BF640D6000CA039 /* WCTabBarButton.m */; };
+		8FECF2B71BF6D52000B32455 /* UIView+WCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FECF2B61BF6D52000B32455 /* UIView+WCExtension.m */; };
+		8FECF2BB1BF715C000B32455 /* WCConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FECF2BA1BF715C000B32455 /* WCConst.m */; };
+		8FECF2BE1BF721BA00B32455 /* WCCallButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FECF2BD1BF721BA00B32455 /* WCCallButton.m */; };
+		8FECF3001BF779D200B32455 /* WCShowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FECF2FF1BF779D200B32455 /* WCShowCell.m */; };
+		8FECF3031BF77BA000B32455 /* WCShowButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FECF3021BF77BA000B32455 /* WCShowButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F0F2A4D1BF62FB6000CA039 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F0F2A2B1BF62FB6000CA039 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F0F2A321BF62FB6000CA039;
+			remoteInfo = WCCarInsurance;
+		};
+		8F0F2A581BF62FB6000CA039 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F0F2A2B1BF62FB6000CA039 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F0F2A321BF62FB6000CA039;
+			remoteInfo = WCCarInsurance;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F0F2A331BF62FB6000CA039 /* WCCarInsurance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WCCarInsurance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F0F2A371BF62FB6000CA039 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F0F2A391BF62FB6000CA039 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		8F0F2A3A1BF62FB6000CA039 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		8F0F2A471BF62FB6000CA039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F0F2A4C1BF62FB6000CA039 /* WCCarInsuranceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WCCarInsuranceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F0F2A501BF62FB6000CA039 /* WCCarInsuranceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCCarInsuranceTests.m; sourceTree = "<group>"; };
+		8F0F2A521BF62FB6000CA039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F0F2A571BF62FB6000CA039 /* WCCarInsuranceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WCCarInsuranceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F0F2A5B1BF62FB6000CA039 /* WCCarInsuranceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCCarInsuranceUITests.m; sourceTree = "<group>"; };
+		8F0F2A5D1BF62FB6000CA039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F0F2A831BF62FEE000CA039 /* accident.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = accident.plist; path = Other/accident.plist; sourceTree = "<group>"; };
+		8F0F2A841BF62FEE000CA039 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Other/Assets.xcassets; sourceTree = "<group>"; };
+		8F0F2A851BF62FEE000CA039 /* cars.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = cars.plist; path = Other/cars.plist; sourceTree = "<group>"; };
+		8F0F2A861BF62FEE000CA039 /* cities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = cities.plist; path = Other/cities.plist; sourceTree = "<group>"; };
+		8F0F2A871BF62FEE000CA039 /* emergencyPhone.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = emergencyPhone.plist; path = Other/emergencyPhone.plist; sourceTree = "<group>"; };
+		8F0F2A881BF62FEE000CA039 /* hotCars.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = hotCars.plist; path = Other/hotCars.plist; sourceTree = "<group>"; };
+		8F0F2A891BF62FEE000CA039 /* phone.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = phone.plist; path = Other/phone.plist; sourceTree = "<group>"; };
+		8F0F2A921BF6317E000CA039 /* WCTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCTabBarController.h; sourceTree = "<group>"; };
+		8F0F2A931BF6317E000CA039 /* WCTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCTabBarController.m; sourceTree = "<group>"; };
+		8F0F2A951BF6319E000CA039 /* WCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCNavigationController.h; sourceTree = "<group>"; };
+		8F0F2A961BF6319E000CA039 /* WCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCNavigationController.m; sourceTree = "<group>"; };
+		8F0F2A981BF632AA000CA039 /* WCHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCHomeViewController.h; sourceTree = "<group>"; };
+		8F0F2A991BF632AA000CA039 /* WCHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCHomeViewController.m; sourceTree = "<group>"; };
+		8F0F2A9B1BF632EF000CA039 /* WCPriceListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCPriceListViewController.h; sourceTree = "<group>"; };
+		8F0F2A9C1BF632EF000CA039 /* WCPriceListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCPriceListViewController.m; sourceTree = "<group>"; };
+		8F0F2A9E1BF63364000CA039 /* WCBaseWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCBaseWebViewController.h; sourceTree = "<group>"; };
+		8F0F2A9F1BF63364000CA039 /* WCBaseWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCBaseWebViewController.m; sourceTree = "<group>"; };
+		8F0F2AA11BF6341B000CA039 /* WCBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCBaseViewController.h; sourceTree = "<group>"; };
+		8F0F2AA21BF6341B000CA039 /* WCBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCBaseViewController.m; sourceTree = "<group>"; };
+		8F0F2AA41BF634B7000CA039 /* WCMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCMeViewController.h; sourceTree = "<group>"; };
+		8F0F2AA51BF634B7000CA039 /* WCMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCMeViewController.m; sourceTree = "<group>"; };
+		8F0F2AA71BF634FB000CA039 /* WCTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCTabBar.h; sourceTree = "<group>"; };
+		8F0F2AA81BF634FB000CA039 /* WCTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCTabBar.m; sourceTree = "<group>"; };
+		8F0F2AAA1BF640D6000CA039 /* WCTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCTabBarButton.h; sourceTree = "<group>"; };
+		8F0F2AAB1BF640D6000CA039 /* WCTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCTabBarButton.m; sourceTree = "<group>"; };
+		8FECF2B51BF6D52000B32455 /* UIView+WCExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WCExtension.h"; sourceTree = "<group>"; };
+		8FECF2B61BF6D52000B32455 /* UIView+WCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WCExtension.m"; sourceTree = "<group>"; };
+		8FECF2B81BF6D56200B32455 /* WCPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCPrefixHeader.pch; sourceTree = "<group>"; };
+		8FECF2B91BF715C000B32455 /* WCConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCConst.h; sourceTree = "<group>"; };
+		8FECF2BA1BF715C000B32455 /* WCConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCConst.m; sourceTree = "<group>"; };
+		8FECF2BC1BF721BA00B32455 /* WCCallButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCCallButton.h; sourceTree = "<group>"; };
+		8FECF2BD1BF721BA00B32455 /* WCCallButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCCallButton.m; sourceTree = "<group>"; };
+		8FECF2FE1BF779D200B32455 /* WCShowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCShowCell.h; sourceTree = "<group>"; };
+		8FECF2FF1BF779D200B32455 /* WCShowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCShowCell.m; sourceTree = "<group>"; };
+		8FECF3011BF77BA000B32455 /* WCShowButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCShowButton.h; sourceTree = "<group>"; };
+		8FECF3021BF77BA000B32455 /* WCShowButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCShowButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F0F2A301BF62FB6000CA039 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0F2A491BF62FB6000CA039 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0F2A541BF62FB6000CA039 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F0F2A2A1BF62FB6000CA039 = {
+			isa = PBXGroup;
+			children = (
+				8F0F2A351BF62FB6000CA039 /* WCCarInsurance */,
+				8F0F2A4F1BF62FB6000CA039 /* WCCarInsuranceTests */,
+				8F0F2A5A1BF62FB6000CA039 /* WCCarInsuranceUITests */,
+				8F0F2A341BF62FB6000CA039 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F0F2A341BF62FB6000CA039 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F0F2A331BF62FB6000CA039 /* WCCarInsurance.app */,
+				8F0F2A4C1BF62FB6000CA039 /* WCCarInsuranceTests.xctest */,
+				8F0F2A571BF62FB6000CA039 /* WCCarInsuranceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F0F2A351BF62FB6000CA039 /* WCCarInsurance */ = {
+			isa = PBXGroup;
+			children = (
+				8F0F2A691BF62FEE000CA039 /* Class */,
+				8F0F2A821BF62FEE000CA039 /* Other */,
+				8F0F2A361BF62FB6000CA039 /* Supporting Files */,
+			);
+			path = WCCarInsurance;
+			sourceTree = "<group>";
+		};
+		8F0F2A361BF62FB6000CA039 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F0F2A831BF62FEE000CA039 /* accident.plist */,
+				8F0F2A841BF62FEE000CA039 /* Assets.xcassets */,
+				8F0F2A851BF62FEE000CA039 /* cars.plist */,
+				8F0F2A861BF62FEE000CA039 /* cities.plist */,
+				8F0F2A871BF62FEE000CA039 /* emergencyPhone.plist */,
+				8F0F2A881BF62FEE000CA039 /* hotCars.plist */,
+				8F0F2A891BF62FEE000CA039 /* phone.plist */,
+				8F0F2A471BF62FB6000CA039 /* Info.plist */,
+				8F0F2A371BF62FB6000CA039 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F0F2A4F1BF62FB6000CA039 /* WCCarInsuranceTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F0F2A501BF62FB6000CA039 /* WCCarInsuranceTests.m */,
+				8F0F2A521BF62FB6000CA039 /* Info.plist */,
+			);
+			path = WCCarInsuranceTests;
+			sourceTree = "<group>";
+		};
+		8F0F2A5A1BF62FB6000CA039 /* WCCarInsuranceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8F0F2A5B1BF62FB6000CA039 /* WCCarInsuranceUITests.m */,
+				8F0F2A5D1BF62FB6000CA039 /* Info.plist */,
+			);
+			path = WCCarInsuranceUITests;
+			sourceTree = "<group>";
+		};
+		8F0F2A691BF62FEE000CA039 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				8F0F2A6E1BF62FEE000CA039 /* Home */,
+				8F0F2A7E1BF62FEE000CA039 /* PriceList */,
+				8F0F2A7A1BF62FEE000CA039 /* Me */,
+				8F0F2A721BF62FEE000CA039 /* Login */,
+				8F0F2A761BF62FEE000CA039 /* Main */,
+				8F0F2A6A1BF62FEE000CA039 /* Common */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		8F0F2A6A1BF62FEE000CA039 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				8F0F2A6B1BF62FEE000CA039 /* Controller */,
+				8F0F2A6C1BF62FEE000CA039 /* Model */,
+				8F0F2A6D1BF62FEE000CA039 /* View */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		8F0F2A6B1BF62FEE000CA039 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8F0F2A9E1BF63364000CA039 /* WCBaseWebViewController.h */,
+				8F0F2A9F1BF63364000CA039 /* WCBaseWebViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8F0F2A6C1BF62FEE000CA039 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8F0F2A6D1BF62FEE000CA039 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8F0F2A6E1BF62FEE000CA039 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8F0F2A6F1BF62FEE000CA039 /* Controller */,
+				8F0F2A701BF62FEE000CA039 /* Model */,
+				8F0F2A711BF62FEE000CA039 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8F0F2A6F1BF62FEE000CA039 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8F0F2A981BF632AA000CA039 /* WCHomeViewController.h */,
+				8F0F2A991BF632AA000CA039 /* WCHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8F0F2A701BF62FEE000CA039 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8F0F2A711BF62FEE000CA039 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8FECF2BC1BF721BA00B32455 /* WCCallButton.h */,
+				8FECF2BD1BF721BA00B32455 /* WCCallButton.m */,
+				8FECF2FE1BF779D200B32455 /* WCShowCell.h */,
+				8FECF2FF1BF779D200B32455 /* WCShowCell.m */,
+				8FECF3011BF77BA000B32455 /* WCShowButton.h */,
+				8FECF3021BF77BA000B32455 /* WCShowButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8F0F2A721BF62FEE000CA039 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8F0F2A731BF62FEE000CA039 /* Controller */,
+				8F0F2A741BF62FEE000CA039 /* Model */,
+				8F0F2A751BF62FEE000CA039 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		8F0F2A731BF62FEE000CA039 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8F0F2A741BF62FEE000CA039 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8F0F2A751BF62FEE000CA039 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8F0F2A761BF62FEE000CA039 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8F0F2A771BF62FEE000CA039 /* Controller */,
+				8F0F2A781BF62FEE000CA039 /* Model */,
+				8F0F2A791BF62FEE000CA039 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8F0F2A771BF62FEE000CA039 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8F0F2A921BF6317E000CA039 /* WCTabBarController.h */,
+				8F0F2A931BF6317E000CA039 /* WCTabBarController.m */,
+				8F0F2A951BF6319E000CA039 /* WCNavigationController.h */,
+				8F0F2A961BF6319E000CA039 /* WCNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8F0F2A781BF62FEE000CA039 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8F0F2A791BF62FEE000CA039 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8F0F2AA71BF634FB000CA039 /* WCTabBar.h */,
+				8F0F2AA81BF634FB000CA039 /* WCTabBar.m */,
+				8F0F2AAA1BF640D6000CA039 /* WCTabBarButton.h */,
+				8F0F2AAB1BF640D6000CA039 /* WCTabBarButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8F0F2A7A1BF62FEE000CA039 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				8F0F2A7B1BF62FEE000CA039 /* Controller */,
+				8F0F2A7C1BF62FEE000CA039 /* Model */,
+				8F0F2A7D1BF62FEE000CA039 /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		8F0F2A7B1BF62FEE000CA039 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8F0F2AA11BF6341B000CA039 /* WCBaseViewController.h */,
+				8F0F2AA21BF6341B000CA039 /* WCBaseViewController.m */,
+				8F0F2AA41BF634B7000CA039 /* WCMeViewController.h */,
+				8F0F2AA51BF634B7000CA039 /* WCMeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8F0F2A7C1BF62FEE000CA039 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8F0F2A7D1BF62FEE000CA039 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8F0F2A7E1BF62FEE000CA039 /* PriceList */ = {
+			isa = PBXGroup;
+			children = (
+				8F0F2A7F1BF62FEE000CA039 /* Controller */,
+				8F0F2A801BF62FEE000CA039 /* Model */,
+				8F0F2A811BF62FEE000CA039 /* View */,
+			);
+			path = PriceList;
+			sourceTree = "<group>";
+		};
+		8F0F2A7F1BF62FEE000CA039 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8F0F2A9B1BF632EF000CA039 /* WCPriceListViewController.h */,
+				8F0F2A9C1BF632EF000CA039 /* WCPriceListViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8F0F2A801BF62FEE000CA039 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8F0F2A811BF62FEE000CA039 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8F0F2A821BF62FEE000CA039 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				8F0F2A911BF630D0000CA039 /* Category */,
+				8F0F2A391BF62FB6000CA039 /* AppDelegate.h */,
+				8F0F2A3A1BF62FB6000CA039 /* AppDelegate.m */,
+				8FECF2B91BF715C000B32455 /* WCConst.h */,
+				8FECF2BA1BF715C000B32455 /* WCConst.m */,
+				8FECF2B81BF6D56200B32455 /* WCPrefixHeader.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		8F0F2A911BF630D0000CA039 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				8FECF2B51BF6D52000B32455 /* UIView+WCExtension.h */,
+				8FECF2B61BF6D52000B32455 /* UIView+WCExtension.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F0F2A321BF62FB6000CA039 /* WCCarInsurance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F0F2A601BF62FB6000CA039 /* Build configuration list for PBXNativeTarget "WCCarInsurance" */;
+			buildPhases = (
+				8F0F2A2F1BF62FB6000CA039 /* Sources */,
+				8F0F2A301BF62FB6000CA039 /* Frameworks */,
+				8F0F2A311BF62FB6000CA039 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WCCarInsurance;
+			productName = WCCarInsurance;
+			productReference = 8F0F2A331BF62FB6000CA039 /* WCCarInsurance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F0F2A4B1BF62FB6000CA039 /* WCCarInsuranceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F0F2A631BF62FB6000CA039 /* Build configuration list for PBXNativeTarget "WCCarInsuranceTests" */;
+			buildPhases = (
+				8F0F2A481BF62FB6000CA039 /* Sources */,
+				8F0F2A491BF62FB6000CA039 /* Frameworks */,
+				8F0F2A4A1BF62FB6000CA039 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F0F2A4E1BF62FB6000CA039 /* PBXTargetDependency */,
+			);
+			name = WCCarInsuranceTests;
+			productName = WCCarInsuranceTests;
+			productReference = 8F0F2A4C1BF62FB6000CA039 /* WCCarInsuranceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8F0F2A561BF62FB6000CA039 /* WCCarInsuranceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F0F2A661BF62FB6000CA039 /* Build configuration list for PBXNativeTarget "WCCarInsuranceUITests" */;
+			buildPhases = (
+				8F0F2A531BF62FB6000CA039 /* Sources */,
+				8F0F2A541BF62FB6000CA039 /* Frameworks */,
+				8F0F2A551BF62FB6000CA039 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F0F2A591BF62FB6000CA039 /* PBXTargetDependency */,
+			);
+			name = WCCarInsuranceUITests;
+			productName = WCCarInsuranceUITests;
+			productReference = 8F0F2A571BF62FB6000CA039 /* WCCarInsuranceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F0F2A2B1BF62FB6000CA039 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WC;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Macx;
+				TargetAttributes = {
+					8F0F2A321BF62FB6000CA039 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					8F0F2A4B1BF62FB6000CA039 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 65749UFAYJ;
+						TestTargetID = 8F0F2A321BF62FB6000CA039;
+					};
+					8F0F2A561BF62FB6000CA039 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 65749UFAYJ;
+						TestTargetID = 8F0F2A321BF62FB6000CA039;
+					};
+				};
+			};
+			buildConfigurationList = 8F0F2A2E1BF62FB6000CA039 /* Build configuration list for PBXProject "WCCarInsurance" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F0F2A2A1BF62FB6000CA039;
+			productRefGroup = 8F0F2A341BF62FB6000CA039 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F0F2A321BF62FB6000CA039 /* WCCarInsurance */,
+				8F0F2A4B1BF62FB6000CA039 /* WCCarInsuranceTests */,
+				8F0F2A561BF62FB6000CA039 /* WCCarInsuranceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F0F2A311BF62FB6000CA039 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F0F2A8D1BF62FEE000CA039 /* cities.plist in Resources */,
+				8F0F2A8A1BF62FEE000CA039 /* accident.plist in Resources */,
+				8F0F2A901BF62FEE000CA039 /* phone.plist in Resources */,
+				8F0F2A8B1BF62FEE000CA039 /* Assets.xcassets in Resources */,
+				8F0F2A8C1BF62FEE000CA039 /* cars.plist in Resources */,
+				8F0F2A8E1BF62FEE000CA039 /* emergencyPhone.plist in Resources */,
+				8F0F2A8F1BF62FEE000CA039 /* hotCars.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0F2A4A1BF62FB6000CA039 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0F2A551BF62FB6000CA039 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F0F2A2F1BF62FB6000CA039 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FECF3031BF77BA000B32455 /* WCShowButton.m in Sources */,
+				8F0F2AAC1BF640D6000CA039 /* WCTabBarButton.m in Sources */,
+				8F0F2A9D1BF632EF000CA039 /* WCPriceListViewController.m in Sources */,
+				8F0F2A9A1BF632AA000CA039 /* WCHomeViewController.m in Sources */,
+				8F0F2AA61BF634B7000CA039 /* WCMeViewController.m in Sources */,
+				8F0F2A3B1BF62FB6000CA039 /* AppDelegate.m in Sources */,
+				8F0F2A971BF6319E000CA039 /* WCNavigationController.m in Sources */,
+				8F0F2A381BF62FB6000CA039 /* main.m in Sources */,
+				8F0F2AA31BF6341B000CA039 /* WCBaseViewController.m in Sources */,
+				8F0F2A941BF6317E000CA039 /* WCTabBarController.m in Sources */,
+				8F0F2AA01BF63364000CA039 /* WCBaseWebViewController.m in Sources */,
+				8FECF2BB1BF715C000B32455 /* WCConst.m in Sources */,
+				8FECF2BE1BF721BA00B32455 /* WCCallButton.m in Sources */,
+				8FECF2B71BF6D52000B32455 /* UIView+WCExtension.m in Sources */,
+				8FECF3001BF779D200B32455 /* WCShowCell.m in Sources */,
+				8F0F2AA91BF634FB000CA039 /* WCTabBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0F2A481BF62FB6000CA039 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F0F2A511BF62FB6000CA039 /* WCCarInsuranceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0F2A531BF62FB6000CA039 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F0F2A5C1BF62FB6000CA039 /* WCCarInsuranceUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F0F2A4E1BF62FB6000CA039 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F0F2A321BF62FB6000CA039 /* WCCarInsurance */;
+			targetProxy = 8F0F2A4D1BF62FB6000CA039 /* PBXContainerItemProxy */;
+		};
+		8F0F2A591BF62FB6000CA039 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F0F2A321BF62FB6000CA039 /* WCCarInsurance */;
+			targetProxy = 8F0F2A581BF62FB6000CA039 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8F0F2A5E1BF62FB6000CA039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F0F2A5F1BF62FB6000CA039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F0F2A611BF62FB6000CA039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Macx/Desktop/WCCar/WCCarInsurance/WCCarInsurance/Other/WCPrefixHeader.pch;
+				INFOPLIST_FILE = WCCarInsurance/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chaozai.WCCarInsurance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F0F2A621BF62FB6000CA039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Macx/Desktop/WCCar/WCCarInsurance/WCCarInsurance/Other/WCPrefixHeader.pch;
+				INFOPLIST_FILE = WCCarInsurance/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chaozai.WCCarInsurance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F0F2A641BF62FB6000CA039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WCCarInsuranceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chaozai.WCCarInsuranceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WCCarInsurance.app/WCCarInsurance";
+			};
+			name = Debug;
+		};
+		8F0F2A651BF62FB6000CA039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WCCarInsuranceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chaozai.WCCarInsuranceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WCCarInsurance.app/WCCarInsurance";
+			};
+			name = Release;
+		};
+		8F0F2A671BF62FB6000CA039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WCCarInsuranceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chaozai.WCCarInsuranceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WCCarInsurance;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8F0F2A681BF62FB6000CA039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WCCarInsuranceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chaozai.WCCarInsuranceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WCCarInsurance;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F0F2A2E1BF62FB6000CA039 /* Build configuration list for PBXProject "WCCarInsurance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F0F2A5E1BF62FB6000CA039 /* Debug */,
+				8F0F2A5F1BF62FB6000CA039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F0F2A601BF62FB6000CA039 /* Build configuration list for PBXNativeTarget "WCCarInsurance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F0F2A611BF62FB6000CA039 /* Debug */,
+				8F0F2A621BF62FB6000CA039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F0F2A631BF62FB6000CA039 /* Build configuration list for PBXNativeTarget "WCCarInsuranceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F0F2A641BF62FB6000CA039 /* Debug */,
+				8F0F2A651BF62FB6000CA039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F0F2A661BF62FB6000CA039 /* Build configuration list for PBXNativeTarget "WCCarInsuranceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F0F2A671BF62FB6000CA039 /* Debug */,
+				8F0F2A681BF62FB6000CA039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F0F2A2B1BF62FB6000CA039 /* Project object */;
+}

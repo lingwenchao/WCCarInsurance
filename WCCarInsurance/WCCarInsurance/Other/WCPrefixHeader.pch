@@ -1,0 +1,45 @@
+//
+//  WCPrefixHeader.pch
+//  WCCarInsurance
+//
+//  Created by Macx on 15/11/14.
+//  Copyright © 2015年 Macx. All rights reserved.
+//
+
+#ifndef WCPrefixHeader_pch
+#define WCPrefixHeader_pch
+
+#import "UIView+WCExtension.h"
+#import "WCConst.h"
+//日志输出
+#ifdef DEBUG //调试阶段
+#define WCLog(...) NSLog(__VA_ARGS__)
+#else //发布阶段
+#define WCLog(...)
+#endif
+
+//功能
+#define WCLogFunc WCLog(@"%s",__func__)
+
+// 颜色
+#define WCBGColor(r, g, b) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1.0]
+// 全局背景色
+#define WCCommentBackgroundColor WCBGColor(242, 244, 245)
+// cell线条色
+#define WCCellLineColor WCBGColor(230, 230, 230)
+// 导航栏标题色
+#define WCNavigationColor WCBGColor(0, 94, 254)
+// 按钮颜色
+#define WCCommonButtonColor WCBGColor(76, 128, 247)
+// 随机色
+#define WCRamdonColor WCBGColor(arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255))#endif 
+
+//写文件到桌面
+#define WCWriteToPath(data,path) [data writeToFile:[NSString stringWithFormate:@"/Users/Macx/Desktop/%@.plist",path] atomically:YES];
+
+//屏幕宽高
+#define WCScreenWidth [UIScreen mainScreen].bounds.size.width
+#define WCScreenHeight [UIScreen mainScreen].bounds.size.height
+
+#endif
+/* WCPrefixHeader_pch */
