@@ -11,6 +11,8 @@
 
 #import "UIView+WCExtension.h"
 #import "WCConst.h"
+#import "UIImageView+WCExtension.h"
+
 //日志输出
 #ifdef DEBUG //调试阶段
 #define WCLog(...) NSLog(__VA_ARGS__)

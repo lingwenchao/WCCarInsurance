@@ -13,3 +13,6 @@ CGFloat const WCCommonMargin = 10;
 
 /** 公共较小间隙 */
 CGFloat const WCcommonSmallMargin = 5;
+
+/** 首页推荐请求路径 */
+NSString * const WCRecommendRequest = @"http://www.51lebao.cn/manage/client/baoIndex/findIndexPage";

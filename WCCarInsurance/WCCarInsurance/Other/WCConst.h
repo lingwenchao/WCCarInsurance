@@ -13,3 +13,6 @@ UIKIT_EXTERN CGFloat const WCCommonMargin;
 
 /** 公共较小间隙 */
 UIKIT_EXTERN CGFloat const WCcommonSmallMargin;
+
+/** 首页推荐请求路径 */
+UIKIT_EXTERN NSString * const WCRecommendRequest;

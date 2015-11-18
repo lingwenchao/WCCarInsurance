@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="93" id="KGk-i7-Jjw" customClass="WCRecommendCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="99"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="146-9a-pD3">
+                        <rect key="frame" x="10" y="16" width="105" height="68"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="105" id="3wh-ze-x2g"/>
+                            <constraint firstAttribute="height" constant="68" id="N4h-UB-W2T"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="交通意外" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4ii-h7-C0g" userLabel="标题">
+                        <rect key="frame" x="125" y="21" width="60" height="18"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="8xt-kc-vkh"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="交通意外保险" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yxt-IU-ZS0" userLabel="介绍">
+                        <rect key="frame" x="125" y="49" width="240" height="15"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Zi-JT-Bue" userLabel="分割线">
+                        <rect key="frame" x="10" y="98" width="355" height="1"/>
+                        <animations/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="BLZ-Jb-KEh"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Yxt-IU-ZS0" secondAttribute="trailing" constant="10" id="Hbf-g3-o2R"/>
+                    <constraint firstItem="4ii-h7-C0g" firstAttribute="leading" secondItem="146-9a-pD3" secondAttribute="trailing" constant="10" id="LXD-YT-Hmj"/>
+                    <constraint firstItem="146-9a-pD3" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="TgO-jm-mgr"/>
+                    <constraint firstItem="146-9a-pD3" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="ZsA-7V-QOU"/>
+                    <constraint firstItem="Yxt-IU-ZS0" firstAttribute="leading" secondItem="4ii-h7-C0g" secondAttribute="leading" id="bJB-cM-YxC"/>
+                    <constraint firstItem="4ii-h7-C0g" firstAttribute="top" secondItem="146-9a-pD3" secondAttribute="top" constant="5" id="gBA-fi-mft"/>
+                    <constraint firstAttribute="trailing" secondItem="3Zi-JT-Bue" secondAttribute="trailing" constant="10" id="hJx-Tg-m94"/>
+                    <constraint firstAttribute="bottom" secondItem="3Zi-JT-Bue" secondAttribute="bottom" id="jhp-Ac-e7n"/>
+                    <constraint firstItem="Yxt-IU-ZS0" firstAttribute="top" secondItem="4ii-h7-C0g" secondAttribute="bottom" constant="10" id="l59-lA-nPu"/>
+                    <constraint firstItem="3Zi-JT-Bue" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="zdK-Xt-f9W"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <connections>
+                <outlet property="introLabel" destination="Yxt-IU-ZS0" id="Mog-9u-z4w"/>
+                <outlet property="posterLinkImageView" destination="146-9a-pD3" id="g4w-es-bqX"/>
+                <outlet property="separatorView" destination="3Zi-JT-Bue" id="ABr-bg-vv8"/>
+                <outlet property="titleLabel" destination="4ii-h7-C0g" id="jIe-lt-ypH"/>
+            </connections>
+            <point key="canvasLocation" x="378.5" y="322"/>
+        </tableViewCell>
+    </objects>
+</document>

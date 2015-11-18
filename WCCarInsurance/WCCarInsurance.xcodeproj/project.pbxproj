@@ -27,11 +27,22 @@
 		8F0F2AA61BF634B7000CA039 /* WCMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0F2AA51BF634B7000CA039 /* WCMeViewController.m */; };
 		8F0F2AA91BF634FB000CA039 /* WCTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0F2AA81BF634FB000CA039 /* WCTabBar.m */; };
 		8F0F2AAC1BF640D6000CA039 /* WCTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0F2AAB1BF640D6000CA039 /* WCTabBarButton.m */; };
+		8FDE02E01BFC5DDA009C776C /* WCRecommendHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE02DE1BFC5DDA009C776C /* WCRecommendHeaderCell.m */; };
+		8FDE02E11BFC5DDA009C776C /* WCRecommendHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FDE02DF1BFC5DDA009C776C /* WCRecommendHeaderCell.xib */; };
+		8FDE02E91BFC6120009C776C /* WCRecommendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE02E71BFC6120009C776C /* WCRecommendCell.m */; };
+		8FDE02EA1BFC6120009C776C /* WCRecommendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FDE02E81BFC6120009C776C /* WCRecommendCell.xib */; };
+		8FDE02ED1BFC9513009C776C /* WCRecommend.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE02EC1BFC9513009C776C /* WCRecommend.m */; };
+		8FDE02F01BFC9634009C776C /* UIImageView+WCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE02EF1BFC9634009C776C /* UIImageView+WCExtension.m */; };
+		8FDE02F71BFC9C4B009C776C /* WCHeaderScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE02F61BFC9C4B009C776C /* WCHeaderScrollView.m */; };
+		8FDE02FA1BFC9DC5009C776C /* WCWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE02F91BFC9DC5009C776C /* WCWeather.m */; };
+		8FDE02FD1BFC9E21009C776C /* WCWeatherButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE02FC1BFC9E21009C776C /* WCWeatherButton.m */; };
+		8FDE03001BFCA3E3009C776C /* WCHeaderScrollViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE02FF1BFCA3E3009C776C /* WCHeaderScrollViewModel.m */; };
 		8FECF2B71BF6D52000B32455 /* UIView+WCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FECF2B61BF6D52000B32455 /* UIView+WCExtension.m */; };
 		8FECF2BB1BF715C000B32455 /* WCConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FECF2BA1BF715C000B32455 /* WCConst.m */; };
 		8FECF2BE1BF721BA00B32455 /* WCCallButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FECF2BD1BF721BA00B32455 /* WCCallButton.m */; };
 		8FECF3001BF779D200B32455 /* WCShowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FECF2FF1BF779D200B32455 /* WCShowCell.m */; };
 		8FECF3031BF77BA000B32455 /* WCShowButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FECF3021BF77BA000B32455 /* WCShowButton.m */; };
+		F077F7F573EE41D1F80E3F54 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9774319806C5F7C9178B36B /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +99,24 @@
 		8F0F2AA81BF634FB000CA039 /* WCTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCTabBar.m; sourceTree = "<group>"; };
 		8F0F2AAA1BF640D6000CA039 /* WCTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCTabBarButton.h; sourceTree = "<group>"; };
 		8F0F2AAB1BF640D6000CA039 /* WCTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCTabBarButton.m; sourceTree = "<group>"; };
+		8FDE02DD1BFC5DDA009C776C /* WCRecommendHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCRecommendHeaderCell.h; sourceTree = "<group>"; };
+		8FDE02DE1BFC5DDA009C776C /* WCRecommendHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCRecommendHeaderCell.m; sourceTree = "<group>"; };
+		8FDE02DF1BFC5DDA009C776C /* WCRecommendHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WCRecommendHeaderCell.xib; sourceTree = "<group>"; };
+		8FDE02E61BFC6120009C776C /* WCRecommendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCRecommendCell.h; sourceTree = "<group>"; };
+		8FDE02E71BFC6120009C776C /* WCRecommendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCRecommendCell.m; sourceTree = "<group>"; };
+		8FDE02E81BFC6120009C776C /* WCRecommendCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WCRecommendCell.xib; sourceTree = "<group>"; };
+		8FDE02EB1BFC9513009C776C /* WCRecommend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCRecommend.h; sourceTree = "<group>"; };
+		8FDE02EC1BFC9513009C776C /* WCRecommend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCRecommend.m; sourceTree = "<group>"; };
+		8FDE02EE1BFC9634009C776C /* UIImageView+WCExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WCExtension.h"; sourceTree = "<group>"; };
+		8FDE02EF1BFC9634009C776C /* UIImageView+WCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WCExtension.m"; sourceTree = "<group>"; };
+		8FDE02F51BFC9C4B009C776C /* WCHeaderScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCHeaderScrollView.h; sourceTree = "<group>"; };
+		8FDE02F61BFC9C4B009C776C /* WCHeaderScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCHeaderScrollView.m; sourceTree = "<group>"; };
+		8FDE02F81BFC9DC5009C776C /* WCWeather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCWeather.h; sourceTree = "<group>"; };
+		8FDE02F91BFC9DC5009C776C /* WCWeather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCWeather.m; sourceTree = "<group>"; };
+		8FDE02FB1BFC9E21009C776C /* WCWeatherButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCWeatherButton.h; sourceTree = "<group>"; };
+		8FDE02FC1BFC9E21009C776C /* WCWeatherButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCWeatherButton.m; sourceTree = "<group>"; };
+		8FDE02FE1BFCA3E3009C776C /* WCHeaderScrollViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCHeaderScrollViewModel.h; sourceTree = "<group>"; };
+		8FDE02FF1BFCA3E3009C776C /* WCHeaderScrollViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCHeaderScrollViewModel.m; sourceTree = "<group>"; };
 		8FECF2B51BF6D52000B32455 /* UIView+WCExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WCExtension.h"; sourceTree = "<group>"; };
 		8FECF2B61BF6D52000B32455 /* UIView+WCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WCExtension.m"; sourceTree = "<group>"; };
 		8FECF2B81BF6D56200B32455 /* WCPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCPrefixHeader.pch; sourceTree = "<group>"; };
@@ -99,6 +128,9 @@
 		8FECF2FF1BF779D200B32455 /* WCShowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCShowCell.m; sourceTree = "<group>"; };
 		8FECF3011BF77BA000B32455 /* WCShowButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCShowButton.h; sourceTree = "<group>"; };
 		8FECF3021BF77BA000B32455 /* WCShowButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCShowButton.m; sourceTree = "<group>"; };
+		9DDEF19D836BD87404644A09 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		C58850B50214AAB1D067D072 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E9774319806C5F7C9178B36B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F077F7F573EE41D1F80E3F54 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,6 +159,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		119FCE0AEDD86236264836BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9DDEF19D836BD87404644A09 /* Pods.debug.xcconfig */,
+				C58850B50214AAB1D067D072 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8F0F2A2A1BF62FB6000CA039 = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +175,8 @@
 				8F0F2A4F1BF62FB6000CA039 /* WCCarInsuranceTests */,
 				8F0F2A5A1BF62FB6000CA039 /* WCCarInsuranceUITests */,
 				8F0F2A341BF62FB6000CA039 /* Products */,
+				119FCE0AEDD86236264836BA /* Pods */,
+				9150FBD7487BBA1EFAB2B5DE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -265,6 +309,8 @@
 		8F0F2A711BF62FEE000CA039 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8FDE02F11BFC9B3C009C776C /* WCHeaderScrollView */,
+				8FDE02E21BFC606B009C776C /* Recommend */,
 				8FECF2BC1BF721BA00B32455 /* WCCallButton.h */,
 				8FECF2BD1BF721BA00B32455 /* WCCallButton.m */,
 				8FECF2FE1BF779D200B32455 /* WCShowCell.h */,
@@ -431,8 +477,96 @@
 			children = (
 				8FECF2B51BF6D52000B32455 /* UIView+WCExtension.h */,
 				8FECF2B61BF6D52000B32455 /* UIView+WCExtension.m */,
+				8FDE02EE1BFC9634009C776C /* UIImageView+WCExtension.h */,
+				8FDE02EF1BFC9634009C776C /* UIImageView+WCExtension.m */,
 			);
 			name = Category;
+			sourceTree = "<group>";
+		};
+		8FDE02E21BFC606B009C776C /* Recommend */ = {
+			isa = PBXGroup;
+			children = (
+				8FDE02E51BFC60AE009C776C /* Model */,
+				8FDE02E41BFC609A009C776C /* View */,
+				8FDE02E31BFC608C009C776C /* Controller */,
+			);
+			name = Recommend;
+			sourceTree = "<group>";
+		};
+		8FDE02E31BFC608C009C776C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		8FDE02E41BFC609A009C776C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8FDE02E61BFC6120009C776C /* WCRecommendCell.h */,
+				8FDE02E71BFC6120009C776C /* WCRecommendCell.m */,
+				8FDE02E81BFC6120009C776C /* WCRecommendCell.xib */,
+				8FDE02DD1BFC5DDA009C776C /* WCRecommendHeaderCell.h */,
+				8FDE02DE1BFC5DDA009C776C /* WCRecommendHeaderCell.m */,
+				8FDE02DF1BFC5DDA009C776C /* WCRecommendHeaderCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8FDE02E51BFC60AE009C776C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8FDE02EB1BFC9513009C776C /* WCRecommend.h */,
+				8FDE02EC1BFC9513009C776C /* WCRecommend.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8FDE02F11BFC9B3C009C776C /* WCHeaderScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				8FDE02F41BFC9B68009C776C /* View */,
+				8FDE02F31BFC9B61009C776C /* Model */,
+				8FDE02F21BFC9B55009C776C /* Controller */,
+			);
+			name = WCHeaderScrollView;
+			sourceTree = "<group>";
+		};
+		8FDE02F21BFC9B55009C776C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		8FDE02F31BFC9B61009C776C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8FDE02F81BFC9DC5009C776C /* WCWeather.h */,
+				8FDE02F91BFC9DC5009C776C /* WCWeather.m */,
+				8FDE02FE1BFCA3E3009C776C /* WCHeaderScrollViewModel.h */,
+				8FDE02FF1BFCA3E3009C776C /* WCHeaderScrollViewModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8FDE02F41BFC9B68009C776C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8FDE02F51BFC9C4B009C776C /* WCHeaderScrollView.h */,
+				8FDE02F61BFC9C4B009C776C /* WCHeaderScrollView.m */,
+				8FDE02FB1BFC9E21009C776C /* WCWeatherButton.h */,
+				8FDE02FC1BFC9E21009C776C /* WCWeatherButton.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9150FBD7487BBA1EFAB2B5DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9774319806C5F7C9178B36B /* libPods.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -442,9 +576,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F0F2A601BF62FB6000CA039 /* Build configuration list for PBXNativeTarget "WCCarInsurance" */;
 			buildPhases = (
+				A586B88EBDCE59E2F2195397 /* Check Pods Manifest.lock */,
 				8F0F2A2F1BF62FB6000CA039 /* Sources */,
 				8F0F2A301BF62FB6000CA039 /* Frameworks */,
 				8F0F2A311BF62FB6000CA039 /* Resources */,
+				5205C0343BB20F7CDFA40CF9 /* Embed Pods Frameworks */,
+				03CCB199111D469F5C29A6B2 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -543,11 +680,13 @@
 			files = (
 				8F0F2A8D1BF62FEE000CA039 /* cities.plist in Resources */,
 				8F0F2A8A1BF62FEE000CA039 /* accident.plist in Resources */,
+				8FDE02EA1BFC6120009C776C /* WCRecommendCell.xib in Resources */,
 				8F0F2A901BF62FEE000CA039 /* phone.plist in Resources */,
 				8F0F2A8B1BF62FEE000CA039 /* Assets.xcassets in Resources */,
 				8F0F2A8C1BF62FEE000CA039 /* cars.plist in Resources */,
 				8F0F2A8E1BF62FEE000CA039 /* emergencyPhone.plist in Resources */,
 				8F0F2A8F1BF62FEE000CA039 /* hotCars.plist in Resources */,
+				8FDE02E11BFC5DDA009C776C /* WCRecommendHeaderCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -567,6 +706,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03CCB199111D469F5C29A6B2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5205C0343BB20F7CDFA40CF9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A586B88EBDCE59E2F2195397 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8F0F2A2F1BF62FB6000CA039 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -578,15 +765,23 @@
 				8F0F2A9A1BF632AA000CA039 /* WCHomeViewController.m in Sources */,
 				8F0F2AA61BF634B7000CA039 /* WCMeViewController.m in Sources */,
 				8F0F2A3B1BF62FB6000CA039 /* AppDelegate.m in Sources */,
+				8FDE02E01BFC5DDA009C776C /* WCRecommendHeaderCell.m in Sources */,
 				8F0F2A971BF6319E000CA039 /* WCNavigationController.m in Sources */,
 				8F0F2A381BF62FB6000CA039 /* main.m in Sources */,
 				8F0F2AA31BF6341B000CA039 /* WCBaseViewController.m in Sources */,
 				8F0F2A941BF6317E000CA039 /* WCTabBarController.m in Sources */,
 				8F0F2AA01BF63364000CA039 /* WCBaseWebViewController.m in Sources */,
+				8FDE02F71BFC9C4B009C776C /* WCHeaderScrollView.m in Sources */,
 				8FECF2BB1BF715C000B32455 /* WCConst.m in Sources */,
+				8FDE02FD1BFC9E21009C776C /* WCWeatherButton.m in Sources */,
+				8FDE02FA1BFC9DC5009C776C /* WCWeather.m in Sources */,
 				8FECF2BE1BF721BA00B32455 /* WCCallButton.m in Sources */,
+				8FDE02F01BFC9634009C776C /* UIImageView+WCExtension.m in Sources */,
+				8FDE03001BFCA3E3009C776C /* WCHeaderScrollViewModel.m in Sources */,
 				8FECF2B71BF6D52000B32455 /* UIView+WCExtension.m in Sources */,
 				8FECF3001BF779D200B32455 /* WCShowCell.m in Sources */,
+				8FDE02ED1BFC9513009C776C /* WCRecommend.m in Sources */,
+				8FDE02E91BFC6120009C776C /* WCRecommendCell.m in Sources */,
 				8F0F2AA91BF634FB000CA039 /* WCTabBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -707,12 +902,13 @@
 		};
 		8F0F2A611BF62FB6000CA039 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DDEF19D836BD87404644A09 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/Macx/Desktop/WCCar/WCCarInsurance/WCCarInsurance/Other/WCPrefixHeader.pch;
+				GCC_PREFIX_HEADER = "/Users/Macx/Desktop/WCCarInsurance仓库/WCCarInsurance/WCCarInsurance/Other/WCPrefixHeader.pch";
 				INFOPLIST_FILE = WCCarInsurance/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chaozai.WCCarInsurance;
@@ -722,12 +918,13 @@
 		};
 		8F0F2A621BF62FB6000CA039 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C58850B50214AAB1D067D072 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/Macx/Desktop/WCCar/WCCarInsurance/WCCarInsurance/Other/WCPrefixHeader.pch;
+				GCC_PREFIX_HEADER = "/Users/Macx/Desktop/WCCarInsurance仓库/WCCarInsurance/WCCarInsurance/Other/WCPrefixHeader.pch";
 				INFOPLIST_FILE = WCCarInsurance/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chaozai.WCCarInsurance;

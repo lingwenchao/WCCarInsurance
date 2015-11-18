@@ -9,6 +9,9 @@
 #import "WCHomeViewController.h"
 #import "WCCallButton.h"
 #import "WCShowCell.h"
+#import "WCRecommendHeaderCell.h"
+#import "WCRecommend.h"
+#import "WCRecommendCell.h"
 
 @implementation WCHomeViewController
 
@@ -48,7 +51,6 @@ static NSString *const WCRecommentCellID = @"recommend";
     WCLogFunc;
 }
 
-//sfigldigjlsirjglsirgjlsrgjoygiweuhtowr
 
 /**
  *  设置表格
@@ -57,6 +59,12 @@ static NSString *const WCRecommentCellID = @"recommend";
 {
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     [self.tableView registerClass:[WCShowCell class] forCellReuseIdentifier:WCShowCellID];
+    
+    [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([WCRecommendCell class]) bundle:nil] forCellReuseIdentifier:WCRecommentCellID];
+    
+    self.tableView.backgroundColor = WCCommentBackgroundColor;
+    
+ //   self.tableView.tableHeaderView =
     
 }
 @end
