@@ -14,7 +14,9 @@
 #import "WCWeather.h"
 #import "WCWeatherButton.h"
 #import "WCHeaderScrollViewModel.h"
-
+#import "WCTabBarController.h"
+#import "WCNavigationController.h"
+#import "WCHeaderScrollViewController.h"
 static CGFloat const moveImageTimer = 5.0;
 
 @interface WCHeaderScrollView()<UIScrollViewDelegate>
@@ -187,12 +189,55 @@ static CGFloat const moveImageTimer = 5.0;
 
 - (void)setUpImageView
 {
+    if (self.headerScrollViewModels.count == 0)return;
+    if (self.headerScrollViewModels.count == 1){
+        UIImageView *currentImageView = [[UIImageView alloc]init];
+        currentImageView.frame = CGRectMake(kNilOptions, kNilOptions, self.WC_width,self.WC_height);
+        WCHeaderScrollViewModel *imageModel = self.headerScrollViewModels.firstObject;
+        currentImageView.image = [UIImage imageNamed:imageModel.posterLink];
+        self.currentImageView = currentImageView;
+        [self.scrollView addSubview:currentImageView];
+        return;
+    }
+    UIImageView *currentImageView = [[UIImageView alloc]init];
+    currentImageView.userInteractionEnabled = YES;
+    currentImageView.frame = CGRectMake(kNilOptions, kNilOptions, self.WC_width,self.WC_height);
+    WCHeaderScrollViewModel *currentModel = self.headerScrollViewModels.firstObject;
+    [currentImageView setUpImageWithUrl:currentModel.posterLink];
+    [currentImageView addGestureRecognizer:[[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(tappedPushClick)]];
+    self.currentImageView = currentImageView;
+    [self.scrollView addSubview:currentImageView];
     
+    UIImageView *nextImageView = [[UIImageView alloc]init];
+    nextImageView.frame = CGRectMake(self.WC_width * 2, kNilOptions, self.WC_width, self.WC_height);
+    WCHeaderScrollViewModel *nextModel = self.headerScrollViewModels[1];
+    [nextImageView setUpImageWithUrl:nextModel.posterLink];
+    self.nextImageView = nextImageView;
+    [self.scrollView addSubview:nextImageView];
+    
+    UIImageView *prefixImageView = [[UIImageView alloc]init];
+    prefixImageView.frame = CGRectMake(kNilOptions, kNilOptions, self.WC_width, self.WC_height);
+    WCHeaderScrollViewModel *prefixModel = self.headerScrollViewModels.lastObject;
+    [prefixImageView setUpImageWithUrl:prefixModel.posterLink];
+    self.prefixImageView = prefixImageView;
+    [self.scrollView addSubview:prefixImageView];
 }
 
 - (void)setUpWeatherReport
 {
     
+}
+
+#pragma mark - 跳转到对应页面控制器
+- (void)tappedPushClick
+{
+    if (self.currentImageIndex == 0) return ;
+    WCTabBarController *tabBar = (WCTabBarController *)[UIApplication sharedApplication].keyWindow.rootViewController;
+    WCNavigationController *nav = (WCNavigationController *)tabBar.selectedViewController;
+    WCHeaderScrollViewModel *model = self.headerScrollViewModels[self.currentImageIndex];
+    WCHeaderScrollViewController *headerVc = [[WCHeaderScrollViewController alloc]init];
+    headerVc.model = model;
+    [nav pushViewController:headerVc animated:YES];
 }
 
 #pragma mark - 定时器自动轮播

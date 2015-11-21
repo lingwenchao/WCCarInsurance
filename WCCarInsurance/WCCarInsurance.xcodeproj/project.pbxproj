@@ -27,6 +27,7 @@
 		8F0F2AA61BF634B7000CA039 /* WCMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0F2AA51BF634B7000CA039 /* WCMeViewController.m */; };
 		8F0F2AA91BF634FB000CA039 /* WCTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0F2AA81BF634FB000CA039 /* WCTabBar.m */; };
 		8F0F2AAC1BF640D6000CA039 /* WCTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0F2AAB1BF640D6000CA039 /* WCTabBarButton.m */; };
+		8F777F971C00C562004F1C36 /* WCHeaderScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F777F961C00C562004F1C36 /* WCHeaderScrollViewController.m */; };
 		8FDE02E01BFC5DDA009C776C /* WCRecommendHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE02DE1BFC5DDA009C776C /* WCRecommendHeaderCell.m */; };
 		8FDE02E11BFC5DDA009C776C /* WCRecommendHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FDE02DF1BFC5DDA009C776C /* WCRecommendHeaderCell.xib */; };
 		8FDE02E91BFC6120009C776C /* WCRecommendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE02E71BFC6120009C776C /* WCRecommendCell.m */; };
@@ -99,6 +100,8 @@
 		8F0F2AA81BF634FB000CA039 /* WCTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCTabBar.m; sourceTree = "<group>"; };
 		8F0F2AAA1BF640D6000CA039 /* WCTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCTabBarButton.h; sourceTree = "<group>"; };
 		8F0F2AAB1BF640D6000CA039 /* WCTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCTabBarButton.m; sourceTree = "<group>"; };
+		8F777F951C00C562004F1C36 /* WCHeaderScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCHeaderScrollViewController.h; sourceTree = "<group>"; };
+		8F777F961C00C562004F1C36 /* WCHeaderScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCHeaderScrollViewController.m; sourceTree = "<group>"; };
 		8FDE02DD1BFC5DDA009C776C /* WCRecommendHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCRecommendHeaderCell.h; sourceTree = "<group>"; };
 		8FDE02DE1BFC5DDA009C776C /* WCRecommendHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCRecommendHeaderCell.m; sourceTree = "<group>"; };
 		8FDE02DF1BFC5DDA009C776C /* WCRecommendHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WCRecommendHeaderCell.xib; sourceTree = "<group>"; };
@@ -535,6 +538,8 @@
 		8FDE02F21BFC9B55009C776C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				8F777F951C00C562004F1C36 /* WCHeaderScrollViewController.h */,
+				8F777F961C00C562004F1C36 /* WCHeaderScrollViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -762,6 +767,7 @@
 				8FECF3031BF77BA000B32455 /* WCShowButton.m in Sources */,
 				8F0F2AAC1BF640D6000CA039 /* WCTabBarButton.m in Sources */,
 				8F0F2A9D1BF632EF000CA039 /* WCPriceListViewController.m in Sources */,
+				8F777F971C00C562004F1C36 /* WCHeaderScrollViewController.m in Sources */,
 				8F0F2A9A1BF632AA000CA039 /* WCHomeViewController.m in Sources */,
 				8F0F2AA61BF634B7000CA039 /* WCMeViewController.m in Sources */,
 				8F0F2A3B1BF62FB6000CA039 /* AppDelegate.m in Sources */,
